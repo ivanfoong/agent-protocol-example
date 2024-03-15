@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "agent-protocol-example"
+version = "0.1.0"
+description = ""
+authors = ["ivanfoong <vonze21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+agent-protocol = "^1.0.2"
+agent-protocol-client = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
